@@ -18,8 +18,27 @@ AnimalFarm() {
 	 * 1. Ask the user which animal they want, then play the sound of that
 	 * animal.
 	 */
+String animal=JOptionPane.showInputDialog("what animal so you want to hear?");
+if (animal.equals("cow")) {
+JOptionPane.showMessageDialog(null, mooFile);
+playMoo();
+playMoo();
+}
+if (animal.equals("duck")) {
+JOptionPane.showMessageDialog(null, quackFile);
+playQuack();
+playQuack();
+}
+if (animal.equals("llama")) {
+JOptionPane.showMessageDialog(null, llamaFile);
+playLlama();
+playLlama();
+}
+}
 
-	/* 2. Make it so that the user can keep entering new animals. */
+private void playLlama() {
+	// TODO Auto-generated method stub
+	
 }
 
 void playMoo() {
