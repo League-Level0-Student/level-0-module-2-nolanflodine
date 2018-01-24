@@ -37,6 +37,7 @@ playLlama();
 }
 
 private void playLlama() {
+	playNoise(llamaFile);
 	// TODO Auto-generated method stub
 	
 }
