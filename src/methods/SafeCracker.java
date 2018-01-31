@@ -18,9 +18,14 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
+		 tryCode(5);
 for(int i=0;i<999999999;i++) {
-System.out.println("hi");
+tryCode(i);
 	}
+	}
+	private static void syso(int i) {
+		// TODO Auto-generated method stub
+		
 	}
 	private static void loop(int i) {
 		// TODO Auto-generated method stub
@@ -28,7 +33,7 @@ System.out.println("hi");
 	}
 
 	static void tryCode(int guess) {
-		System.out.println("trying " + guess);
+		//System.out.println("trying " + guess);
 
 		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
 
